@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Маршрут - По следам литературных героев</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Добавляем API Яндекс Карт -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=45479639-fd78-4bf5-b931-e1de0cf05ae0&lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo">
+                <h1>По следам литературных героев</h1>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="routes.html" class="active">Маршруты</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="route-detail">
+            <div class="route-header">
+                <h2>Загрузка...</h2>
+                <div class="route-meta">
+                    <span class="location">Загрузка...</span>
+                    <span class="duration">Загрузка...</span>
+                </div>
+            </div>
+
+            <!-- Добавляем карту маршрута -->
+            <div class="route-map" id="route-map"></div>
+
+            <div class="route-gallery">
+                <img src="" alt="Главное фото маршрута" class="main-image" loading="lazy">
+                <div class="thumbnail-grid">
+                    <!-- Миниатюры будут добавлены динамически -->
+                </div>
+            </div>
+
+            <div class="route-content">
+                <section class="route-description">
+                    <h3>О маршруте</h3>
+                    <p>Загрузка...</p>
+                </section>
+
+                <section class="route-points">
+                    <h3>Точки маршрута</h3>
+                    <!-- Точки маршрута будут добавлены динамически -->
+                </section>
+
+                <section class="route-info">
+                    <h3>Полезная информация</h3>
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <h4>Как добраться</h4>
+                            <p>Загрузка...</p>
+                        </div>
+                        <div class="info-card">
+                            <h4>Лучшее время для посещения</h4>
+                            <p>Загрузка...</p>
+                        </div>
+                        <div class="info-card">
+                            <h4>Что взять с собой</h4>
+                            <p>Загрузка...</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>О проекте</h3>
+                <p>Мы помогаем читателям погрузиться в мир литературы через реальные путешествия</p>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>Email: info@literarytrails.com</p>
+                <p>Телефон: +777 (777) 777-77-77</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 По следам литературных героев. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Подключаем JavaScript файлы -->
+    <script src="js/routes-data.js"></script>
+    <script src="js/route-loader.js"></script>
+    <script src="js/route-map.js"></script>
+    <script src="js/image-modal.js"></script>
+
+    <!-- Модальное окно для просмотра изображений -->
+    <div class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <img src="" alt="Увеличенное изображение">
+        </div>
+    </div>
+</body>
+</html> 

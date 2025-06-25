@@ -1,0 +1,28 @@
+Ссылки на изображения для сайта "По следам литературных героев"
+
+1. Фон главной страницы (hero-bg.jpg):
+https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg
+
+2. Винни Пух в Англии (winnie-pooh.jpg):
+https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg
+
+3. Гарри Поттер в Эдинбурге (harry-potter.jpg):
+https://images.pexels.com/photos/164336/pexels-photo-164336.jpeg
+
+4. Главное изображение маршрута (route-main.jpg):
+https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg
+
+5. Маршрут 1 (route-1.jpg):
+https://images.pexels.com/photos/164336/pexels-photo-164336.jpeg
+
+6. Маршрут 2 (route-2.jpg):
+https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg
+
+7. Маршрут 3 (route-3.jpg):
+https://images.pexels.com/photos/145939/pexels-photo-145939.jpeg
+
+Инструкция по загрузке:
+1. Откройте каждую ссылку в новом окне браузера
+2. Когда изображение откроется, нажмите правой кнопкой мыши и выберите "Сохранить изображение как..."
+3. Сохраните файл с указанным именем (например, hero-bg.jpg)
+4. Переместите все скачанные изображения в папку images/ вашего проекта 
